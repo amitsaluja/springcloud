@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mywebsite1
+  cloud:
+    config:
+      uri: http://localhost:8888/
+  
+  profiles:
+    active:
+      - qa
