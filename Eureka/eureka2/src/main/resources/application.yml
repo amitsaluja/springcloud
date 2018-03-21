@@ -1,0 +1,12 @@
+server:
+  port: 8762
+spring :
+ application :
+  name : serv-registry2
+  
+eureka:
+  client:
+    service-url:
+      defaultZone : http://serv-registry1:8762/eureka
+  instance :
+   hostname : serv-registry2
