@@ -7,6 +7,6 @@ spring :
 eureka:
   client:
     service-url:
-      defaultZone : http://serv-registry1:8762/eureka
+      defaultZone : http://serv-registry1:8761/eureka
   instance :
    hostname : serv-registry2
